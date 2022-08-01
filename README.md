@@ -60,10 +60,13 @@ The system requirements are to have `Anaconda environment` pre-Installed to run 
 ## Business problem
 
 An NGO focused on locating wells needing repair is looking to find patterns in non-functional wells to influence how new wells are built.
+
 ## Modelling 
 A Model that predicts the status group of the waterpoint is created. A Random forest classifier is found to produce the best model
 using pipeline and tuning. The model has an accuracy level of 81%. The model uses features fed into the model and using a binary classifier,
-we can predict whether a waterpoint is functional or it has problems all in all.
+we can predict whether a waterpoint is functional or it has problems all in all. The pipeline below shows our best model
+
+![Screenshot from 2022-08-01 10-07-31](https://user-images.githubusercontent.com/104395405/182092160-1c4cf0d6-e864-453e-a3f6-518ca4881360.png)
 
 
 
